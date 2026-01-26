@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#heading {
+  margin-bottom: 10px;
+}
+
+#countDisplay {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.buuton button {
+  padding: 10px 18px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  color: white;
+}
+
+#decrease {
+  background-color: red;
+}
+
+#reset {
+  background-color: blue;
+}
+
+#increase {
+  background-color: green;
+}
+
+.buuton button:hover {
+  opacity: 0.8;
+}
