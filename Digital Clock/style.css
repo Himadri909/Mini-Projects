@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+}
+
+.clock {
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  background: linear-gradient(90deg, #ff4ecd, #ffeb3b, #4caf50, #03a9f4);
+  padding: 20px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+}
